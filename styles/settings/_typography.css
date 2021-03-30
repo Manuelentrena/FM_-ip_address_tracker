@@ -1,0 +1,41 @@
+:root {
+  /* ESCALA */
+  --fs-base: 62.5%;
+
+  /* TAMAÑOS */
+
+  /* Desktop */
+  --fs-higher: 4rem;
+  --fs-high: 3rem;
+  --fs-medium: 2rem;
+  --fs-small: 1.5rem;
+  /* Mobil */
+  --fs-higher-m: 2.5rem;
+  --fs-high-m: 2.2rem;
+  --fs-medium-m: 2rem;
+  --fs-small-m: 1.1rem;
+
+  /* PESOS */
+  --bold: 700;
+  --regular: 400;
+  --medium: 500;
+
+  /* Altura de linea */
+  --line-height: 1.5;
+
+  /* COMPONENTES */
+
+  /* PANEL DE BUSQUEDA */
+  --fs-panel: var(--fs-higher);
+  --fs-panel-m: var(--fs-higher-m);
+
+  /* BUSCADOR DE IP */
+  --fs-search: var(--fs-medium);
+  --fs-search-m: var(--fs-medium-m);
+
+  /* PANEL DE INFORMACIÓN */
+  --fs-resultsTitle: var(--fs-small);
+  --fs-resultsTitle-m: var(--fs-small-m);
+  --fs-resultsData: var(--fs-high);
+  --fs-resultsData-m: var(--fs-high-m);
+}

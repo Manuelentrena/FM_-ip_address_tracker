@@ -1,0 +1,22 @@
+:root {
+  /* COLORS */
+  --Very-Dark-Gray: #2b2b2b;
+  --Dark-Gray: #969696;
+  --white: #fff;
+
+  /* ---COMPONENTES--- */
+
+  /* PANEL DE BUSQUEDA */
+  --panel-title: var(--white);
+
+  /* BUSCADOR DE IP */
+  --c-search-placeholder: var(--Dark-Gray);
+  --c-search-text: var(--Very-Dark-Gray);
+  --c-search-btn: var(--Very-Dark-Gray);
+  --c-search-btnHover: var(--Dark-Gray);
+
+  /* PANEL DE INFORMACIÓN */
+  --c-results-title: var(--Dark-Gray);
+  --c-results-data: var(--Very-Dark-Gray);
+  --c-separator: var(--Dark-Gray);
+}

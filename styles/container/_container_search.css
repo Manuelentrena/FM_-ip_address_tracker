@@ -1,0 +1,14 @@
+@import "../settings/_layout.css";
+
+.\#container-search {
+  margin: 0;
+}
+
+.\#container-input {
+  padding: var(--p-top-desktop) var(--p-right-desktop) var(--p-bottom-desktop)
+    var(--p-left-desktop);
+}
+
+.\#container-btn {
+  padding: 0 var(--spacing-l);
+}

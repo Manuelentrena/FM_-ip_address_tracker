@@ -1,0 +1,45 @@
+:root {
+  /* spacing */
+  --spacing-auto: auto;
+  --spacing-vs: 0.45em;
+  --spacing-s: 0.85rem;
+  --spacing-m: 1.7rem;
+  --spacing-l: 3.25rem;
+  --spacing-vl: 6.5rem;
+  --spacing-xl: 13rem;
+  --spacing-xxl: 26rem;
+  --spacing-xxxl: 51.9rem;
+
+  /* Heaight panel-ip */
+  --height-panel: var(--spacing-xxxl);
+
+  /* Border Button */
+  --border-buton: var(--spacing-m);
+
+  /* Border Results */
+  --border-results: var(--spacing-m);
+
+  /* Margin */
+
+  --m-top-desktop: var(--spacing-m);
+  --m-bottom-desktop: var(--spacing-m);
+  --m-left-desktop: 0;
+  --m-right-desktop: 0;
+
+  --m-top-mobil: var(--spacing-l);
+  --m-bottom-mobil: var(--spacing-l);
+  --m-left-mobil: 0;
+  --m-right-mobil: 0;
+
+  /* padding */
+
+  --p-top-desktop: var(--spacing-m);
+  --p-bottom-desktop: var(--spacing-m);
+  --p-left-desktop: var(--spacing-l);
+  --p-right-desktop: var(--spacing-l);
+
+  --p-top-mobil: var(--spacing-m);
+  --p-bottom-mobil: var(--spacing-m);
+  --p-left-mobil: var(--spacing-m);
+  --p-right-mobil: var(--spacing-m);
+}

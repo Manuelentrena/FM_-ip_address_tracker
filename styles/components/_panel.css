@@ -1,0 +1,11 @@
+@import "../settings/_layout.css";
+
+.panel-ip {
+  background-image: url(../../resources/images/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: var(--height-panel);
+  position: relative;
+  box-shadow: 0px 10px 15px -10px #727272;
+  z-index: 401;
+}

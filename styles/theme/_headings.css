@@ -1,0 +1,65 @@
+@import "../settings/_fonts.css";
+@import "../settings/_typography.css";
+@import "../settings/_colors.css";
+
+h1 {
+  color: var(--panel-title);
+  font: normal var(--bold) var(--fs-panel) / var(--line-height) "Rubik Bold",
+    sans-serif;
+  margin: var(--m-top-desktop) var(--m-right-desktop) var(--m-bottom-desktop)
+    var(--m-left-desktop);
+}
+
+h2 {
+  color: var(--c-results-title);
+  font: normal var(--bold) var(--fs-resultsTitle) / var(--line-height)
+      "Rubik Medium",
+    sans-serif;
+  margin: 0;
+}
+
+p {
+  color: var(--c-results-data);
+  font: normal var(--bold) var(--fs-resultsData) / var(--line-height)
+      "Rubik Bold",
+    sans-serif;
+  margin: 0;
+}
+
+input {
+  color: var(--c-search-text);
+  font: normal var(--regular) var(--fs-search) / var(--line-height) "Rubik Bold",
+    sans-serif;
+  border: 0;
+  border-top-left-radius: var(--border-buton);
+  border-bottom-left-radius: var(--border-buton);
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--c-search-placeholder);
+  opacity: 1; /* Firefox */
+}
+
+button {
+  border: 0;
+  border-top-right-radius: var(--border-buton);
+  border-bottom-right-radius: var(--border-buton);
+  height: 50px;
+}
+
+button:focus {
+  outline: none; /* Firefox */
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: var(--fs-resultsData-m);
+  }
+  h2 {
+    font-size: var(--fs-resultsTitle-m);
+  }
+}

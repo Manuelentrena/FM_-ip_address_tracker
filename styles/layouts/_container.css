@@ -1,0 +1,20 @@
+@import "../settings/_layout.css";
+
+.\#container {
+  margin: var(--m-top-desktop) var(--m-right-desktop) var(--m-bottom-desktop)
+    var(--m-left-desktop);
+}
+
+@media screen and (max-width: 1440px) {
+  .\#container {
+    margin: var(--m-top-tablet) var(--m-right-tablet) var(--m-bottom-tablet)
+      var(--m-left-tablet);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#container {
+    margin: var(--m-top-mobil) var(--m-right-mobil) var(--m-bottom-mobil)
+      var(--m-left-mobil);
+  }
+}

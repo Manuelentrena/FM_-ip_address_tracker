@@ -1,0 +1,20 @@
+@import "../settings/_layout.css";
+
+.\#container-body {
+  padding: var(--p-top-desktop) var(--p-right-desktop) var(--p-bottom-desktop)
+    var(--p-left-desktop);
+}
+
+@media screen and (max-width: 1440px) {
+  .\#container-body {
+    padding: var(--p-top-tablet) var(--p-right-tablet) var(--p-bottom-tablet)
+      var(--p-left-tablet);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#container-body {
+    padding: var(--p-top-mobil) var(--p-right-mobil) var(--p-bottom-mobil)
+      var(--p-left-mobil);
+  }
+}

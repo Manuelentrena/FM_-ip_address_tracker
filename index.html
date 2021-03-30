@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | IP Address Tracker</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <style>
+      .attribution {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 2rem;
+        background-color: black;
+        color: blanchedalmond;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panel-ip">
+      <h1 class="panel-ip__title u-center">IP Address Tracker</h1>
+      <div class="#container-search search-ip u-center">
+        <input
+          class="#container-input search-ip__input"
+          id="input-search"
+          type="text"
+          placeholder="Search for any IP address or domain"
+        />
+        <button class="#container-btn search-ip__btn" id="btn-search">
+          <img
+            class="search-ip__arrow"
+            src="resources/images/icon-arrow.svg"
+            alt="arrow"
+          />
+        </button>
+      </div>
+      <div class="results">
+        <div class="results__block">
+          <h2 class="results__title">IP ADDRESS</h2>
+          <p class="results__data" id="data-ip"></p>
+        </div>
+        <div class="results__block">
+          <h2 class="results__title">LOCATION</h2>
+          <p class="results__data" id="data-location"></p>
+        </div>
+        <div class="results__block">
+          <h2 class="results__title">TIMEZONE</h2>
+          <p class="results__data" id="data-timezone"></p>
+        </div>
+        <div class="results__block">
+          <h2 class="results__title">ISP</h2>
+          <p class="results__data" id="data-isp"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map" id="mapid"></div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Manuelentrena">Manuel Entrena</a>.
+    </div>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
